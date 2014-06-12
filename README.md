@@ -34,7 +34,7 @@ pvc.Task("BuildMonitor", ()=>{
 	.Watch("**/*.cs");
 });
 
-//Note this'll run whole testcases everytime build is triggered!
+//Note : this'll run whole testcases everytime build is triggered!
 pvc.Task("TestMonitor", ()=>{}).Requires("TestRunner","BuildMonitor");
 ```
 
@@ -47,3 +47,7 @@ pvc.Task("TestRunner", ()=>{
 	.Pipe(new PvcXunit(displaySuccess: true, displayFailureStack: true));
 })
 ```
+
+### Note
+
+Due to implementation of xUnit v1 test runner, xunit.dll should be placed where testcase assemblies are located.
