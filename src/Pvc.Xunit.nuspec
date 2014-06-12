@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Pvc.Xunit</id>
+    <version>0.1.0.6</version>
+    <title>Pvc.Xunit</title>
+    <authors>OJ Kwon</authors>
+    <owners>OJ Kwon</owners>
+    <licenseUrl>https://github.com/kwonoj/pvc.xunit/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/kwonoj/pvc.xunit</projectUrl>
+    <iconUrl>http://i.imgur.com/9F9yb22.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>PVC Build Engine plugin to execute testcases written for xUnit test framework</description>
+    <releaseNotes>
+        Initial release
+    </releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>PVC plugin scriptcs</tags>
+  </metadata>
+</package>
